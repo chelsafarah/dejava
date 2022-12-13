@@ -2,8 +2,8 @@
     <div>
         <!-- Header -->
         <header>
-            <div class="transbox d-flex flex-column px-5 flex-lg-row text-start">
-                <div class="description">
+            <div class="transbox d-flex flex-column px-5 flex-lg-row text-lg-start text-md-center">
+                <div class="description me-lg-5 me-md-1">
                     <h1>
                         JASA TUGAS & PEMBUATAN SKRIPSI
                     </h1>
@@ -36,12 +36,12 @@
     header{
         margin-top: -60px;
         padding-top: 100px;
+        padding-bottom: 100px;
         background-color: antiquewhite;
     }
 
     .description {
         margin-top: 100px;
-        margin-right: 100px;
     }
 
     .img-ilustration {

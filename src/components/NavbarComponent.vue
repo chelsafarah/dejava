@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <nav class="navbar sticky-top">
+        <nav class="navbar navbar-expand-lg fixed-top mx-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Dejavajoki</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarList" aria-controls="navbarList" aria-expanded="false" aria-label="Toggle navigation">
