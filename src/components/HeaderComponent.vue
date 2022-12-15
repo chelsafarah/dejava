@@ -4,7 +4,7 @@
         <header>
             <div class="transbox d-flex flex-column px-5 flex-lg-row text-lg-start text-md-center">
                 <div class="description me-lg-5 me-md-1">
-                    <h1>
+                    <h1 class="title anim-typewriter">
                         JASA TUGAS & PEMBUATAN SKRIPSI
                     </h1>
                     <p class="mt-3">
@@ -46,5 +46,28 @@
 
     .img-ilustration {
         max-width: 400px;
+    }
+
+    .title{
+        position: relative; 
+        width: 18em;
+        border-right: 2px solid rgba(255,255,255,.75);
+        font-size: 180%;
+        white-space: nowrap;
+        overflow: hidden; 
+    }
+    
+    /* Animation */
+    .anim-typewriter{
+    animation: typewriter 4s steps(30) 1s 1 normal both,
+                blinkTextCursor 500ms steps(30) infinite normal;
+    }
+    @keyframes typewriter{
+        from{width: 0;}
+        to{width: 18em;}
+    }
+    @keyframes blinkTextCursor{
+        from{border-right-color: rgba(255,255,255,.75);}
+        to{border-right-color: transparent;}
     }
 </style>
