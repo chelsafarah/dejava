@@ -4,6 +4,7 @@
     <HeaderComponent />
     <StatisticContent />
     <TestimonialContent />
+    <FooterComponent />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import NavbarComponent from '@/components/NavbarComponent.vue'
 import HeaderComponent from '@/components/HeaderComponent.vue'
 import StatisticContent from '@/components/StatisticContent.vue';
 import TestimonialContent from '@/components/TestimonialContent.vue';
+import FooterComponent from '@/components/FooterComponent.vue';
 
 export default {
   name: 'HomeView',
@@ -20,7 +22,8 @@ export default {
     NavbarComponent,
     HeaderComponent,
     StatisticContent,
-    TestimonialContent
+    TestimonialContent,
+    FooterComponent
   }
 }
 </script>
